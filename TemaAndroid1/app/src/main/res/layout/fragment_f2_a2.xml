@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#03fc7f"
+    android:layout_height="match_parent"
+    tools:context=".F2A2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F2A2"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:id="@+id/textView"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Replace F2A2 with F3A2"
+        android:onClick="replaceF2A2WithF3A2"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Back to F1A2"
+        android:onClick="backToF1A2"
+        android:layout_marginTop="300dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Close activity"
+        android:onClick="closeActivity"
+        android:layout_marginTop="350dp" />
+
+</FrameLayout>

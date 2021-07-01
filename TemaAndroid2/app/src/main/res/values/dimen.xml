@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_dimension">20sp</dimen>
+    <dimen name="sub_title_dimension">16sp</dimen>
+    <dimen name="body_dimension">18sp</dimen>
+    <dimen name="default_space_padding">10sp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hw1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="second_activity">SecondActivity</string>
+    <string name="button">Button</string>
+    <string name="add_f2a2">Add F2A2</string>
+</resources>
